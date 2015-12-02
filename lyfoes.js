@@ -10,36 +10,36 @@ var State = require('./state');
 const DEPTH = false;
 const WHITE = 1;
 const BLUE = 2;
-const ORANGE = 3;
-const BROWN = 4;
-const RED = 5;
-const PURPLE = 6;
-const YELLOW = 7;
-const DARKGREEN = 8;
-const LIGHTGREEN = 9;
-const LIGHTPINK = 10;
-const BRIGHTPINK = 11
-const ONEEYE = 12;
-const CYAN = 13;
+const LIGHTBLUE = 3;
+const LIGHTGREEN = 4;
+const YELLOW = 5;
+const BRIGHTPINK = 6;
+const RED = 7;
+const GREEN = 8;
+const GREY = 9;
+const PURPLE = 10;
+const PINK = 11
+const CYAN = 12;
+const ORANGE = 13;
 
 // Bottom left
 var start = [
 ];
 
 var columns = [
-  new Column([BROWN, ORANGE, BLUE, WHITE]),
-  new Column([RED, YELLOW, PURPLE, RED]),
-  new Column([ORANGE, WHITE, LIGHTGREEN, DARKGREEN]),
-  new Column([LIGHTGREEN, BROWN, LIGHTPINK, LIGHTPINK]),
-  new Column([LIGHTGREEN, BLUE, YELLOW, ORANGE]),
-  new Column([CYAN, BROWN, ONEEYE, PURPLE]),
-  new Column([DARKGREEN, ONEEYE, WHITE, BRIGHTPINK]),
-  new Column([DARKGREEN, ONEEYE, CYAN, LIGHTPINK]),
-  new Column([DARKGREEN, RED, BRIGHTPINK, CYAN]),
-  new Column([WHITE, ONEEYE, PURPLE, RED]),
-  new Column([LIGHTGREEN, PURPLE, BRIGHTPINK, BLUE]),
-  new Column([YELLOW, BROWN, BLUE, ORANGE]),
-  new Column([BRIGHTPINK, YELLOW, LIGHTPINK, CYAN]),
+  new Column([LIGHTGREEN, LIGHTBLUE, BLUE, WHITE]),
+  new Column([YELLOW, RED, BRIGHTPINK, YELLOW]),
+  new Column([LIGHTBLUE, WHITE, GREY, GREEN]),
+  new Column([GREY, LIGHTGREEN, PURPLE, PURPLE]),
+  new Column([GREY, BLUE, RED, LIGHTBLUE]),
+  new Column([CYAN, LIGHTGREEN, PINK, BRIGHTPINK]),
+  new Column([GREEN, PINK, WHITE, ORANGE]),
+  new Column([GREEN, PINK, CYAN, PURPLE]),
+  new Column([GREEN, YELLOW, ORANGE, CYAN]),
+  new Column([WHITE, PINK, BRIGHTPINK, YELLOW]),
+  new Column([GREY, BRIGHTPINK, ORANGE, BLUE]),
+  new Column([RED, LIGHTGREEN, BLUE, LIGHTBLUE]),
+  new Column([ORANGE, RED, PURPLE, CYAN]),
   new Column([]),
   new Column([]),
 ];
