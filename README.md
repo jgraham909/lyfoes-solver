@@ -1,5 +1,7 @@
 # lyfoes-solver
-Solver for the puzzle game lyfoes.
+Solver for the puzzle game lyfoes. 
+
+https://www.youtube.com/watch?v=qD930C2U-Cg
 
 https://play.google.com/store/apps/details?id=by.ai91.lyfoes
 
